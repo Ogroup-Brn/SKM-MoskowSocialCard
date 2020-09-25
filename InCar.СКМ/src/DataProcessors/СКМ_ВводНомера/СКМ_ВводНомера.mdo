@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4113f5fd-eda7-472f-be11-0f1e23a8251f">
+  <producedTypes>
+    <objectType typeId="ed95a055-559a-42e5-9ed1-07d70fc9c2d3" valueTypeId="6cfe424a-3620-44d1-a182-1ebae50ffc93"/>
+    <managerType typeId="28eeb98c-e243-4e99-95eb-c4b77f25b99e" valueTypeId="911fc098-c7cd-49b2-aa9f-00d5455694f5"/>
+  </producedTypes>
+  <name>СКМ_ВводНомера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ручной ввод данных СКМ</value>
+  </synonym>
+  <comment>Ручной ввод данных социальной карты москвича</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СКМ_ВводНомера.Form.Форма</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Ручной ввод данных социальной карты москвича</value>
+  </explanation>
+  <attributes uuid="e4a8b839-bf00-4273-9120-dfd061e9aedd">
+    <name>СтрокаНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>18</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер социальной карты (расположен под магнитной полосой, 13 цифр, начальную комбинацию цифр &quot;964390&quot; вводить не надо) или код держателя (14 цифр)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="9da55ae3-c844-4dc6-83d3-9f00cdc219fa">
+    <name>СтрокаСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>8</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Первые шесть цифр серии карты. Если серия на карте отсутствует - оставить пустым</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="556b6bc0-4586-418f-83e5-764f874dcb31">
+    <name>МожноСоздатьКартуЛояльности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Можно создать карту лояльности</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="da07fc20-eadc-476d-b32b-71726d7bb0c8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Социальная карта москвича</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

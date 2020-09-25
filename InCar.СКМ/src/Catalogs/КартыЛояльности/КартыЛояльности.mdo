@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9476dc46-bfc2-4e48-9092-007c16d912b0">
+  <producedTypes>
+    <objectType typeId="0e6a1a53-3f31-4085-89b7-896b4f452d0d" valueTypeId="eb395267-db4d-4614-afaf-5651efb3f9e9"/>
+    <refType typeId="060b0e67-2db6-4dd7-8737-de6ac7bb4a1d" valueTypeId="d17c1a2d-296b-4f55-9ddf-6c54a2a3f46a"/>
+    <selectionType typeId="40bd7f53-c421-4e69-a464-0e3238b74dcb" valueTypeId="177cd372-000d-4021-b91a-403b88d31874"/>
+    <listType typeId="56840b2a-3311-4d3e-b467-f3fd583a32ba" valueTypeId="d3375a86-ec28-4b3f-aa1a-c66b69a7b36a"/>
+    <managerType typeId="0bb112d6-dd03-4502-961a-9d18894668a5" valueTypeId="6f82ce0b-db17-43a3-a5bf-65c7545b5b6d"/>
+  </producedTypes>
+  <name>КартыЛояльности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <owners>Checked</owners>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <owners>Catalog.ВидыКартЛояльности</owners>
+  <descriptionLength>100</descriptionLength>
+  <attributes uuid="66065cfd-8370-4167-a841-d8b277b7f084">
+    <name>СКМ_ДатаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="664a686a-22d4-4386-88aa-2165aa62ba4e">
+    <name>Статус</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>EnumRef.СтатусыКартЛояльности</types>
+    </type>
+  </attributes>
+  <attributes uuid="f2ebf6d6-5d35-4526-9c4b-2f4ffb0c27f7">
+    <name>Штрихкод</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="b80efb5f-6aba-4658-9cc2-d41e8f2232f4">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+  </attributes>
+  <attributes uuid="8c0644ad-ccbb-4ab1-b45d-7cbdbd72c2c0">
+    <name>МагнитныйКод</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="5bdce634-a101-41ae-b630-43ccb6ecf0eb">
+    <name>Партнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+  </attributes>
+  <attributes uuid="74ace9b3-91b0-4603-8b3a-40398a70b57b">
+    <name>Соглашение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.СоглашенияСКлиентами</types>
+    </type>
+  </attributes>
+  <forms uuid="b2fed9f5-590c-4853-be76-33f88ceceb47">
+    <name>СчитываниеКартыЛояльности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="50f8acfd-b9bb-45e6-a330-5903d4a276ab">
+    <name>ПомощникРегистрации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="ee26ff3d-92d9-4297-b46b-25ef1a956119">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

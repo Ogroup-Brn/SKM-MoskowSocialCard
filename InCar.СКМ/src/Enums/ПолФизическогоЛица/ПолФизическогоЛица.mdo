@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a7206919-0c05-4d0b-a06c-714be79094b5">
+  <producedTypes>
+    <refType typeId="c91d5f51-b4cb-44d0-b368-9f1d3cb4a67c" valueTypeId="89be712c-03f6-493c-8005-fb607f2b4e3b"/>
+    <listType typeId="d4e2e02a-6875-45af-b8a1-307c473e4459" valueTypeId="5adced0d-cffc-45df-94b2-4ffa50d85e8c"/>
+    <managerType typeId="817ec55e-95ba-437e-9976-bc56461da6ba" valueTypeId="302849e4-2053-4c23-81c2-c5c93b9fd4a2"/>
+  </producedTypes>
+  <name>ПолФизическогоЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="e207a7f9-487e-475b-8175-67eb92e5c51a">
+    <name>Мужской</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3836f147-831c-41a0-816c-898c0836185b">
+    <name>Женский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

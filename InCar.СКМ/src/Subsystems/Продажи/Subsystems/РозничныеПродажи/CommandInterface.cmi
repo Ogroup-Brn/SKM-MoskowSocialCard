@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.СКМ_ВводНомера.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>d0c66531-27ed-470a-bddd-e6978ad5a2a9</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>1b9152e3-2563-469b-a7f5-f160e9fb491b</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+</cmi:CommandInterface>

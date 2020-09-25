@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b3edf618-4bfc-4df5-8398-c890c6e523c2">
+  <name>Продажи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <content>DataProcessor.СКМ_ВводНомера</content>
+  <content>d0c66531-27ed-470a-bddd-e6978ad5a2a9</content>
+  <subsystems>РозничныеПродажи</subsystems>
+</mdclass:Subsystem>

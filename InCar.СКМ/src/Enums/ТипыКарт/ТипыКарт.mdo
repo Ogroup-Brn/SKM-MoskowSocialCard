@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4c4b9a67-d7d4-448f-9e30-0a86cdfb1468">
+  <producedTypes>
+    <refType typeId="9adc6e10-100a-4e66-a8fa-bd7fe4883f73" valueTypeId="ba8217b6-cd21-49ae-8d30-8174c3874d0c"/>
+    <listType typeId="792396f5-be63-4512-8c72-a672b65eb7b5" valueTypeId="393787d2-db76-4bd5-a22b-b5f1db5aa457"/>
+    <managerType typeId="6a1df768-9625-4c63-af7d-75e67eaf34ab" valueTypeId="1acc4da2-bb30-4431-8e8f-eb952115d444"/>
+  </producedTypes>
+  <name>ТипыКарт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2c0d6606-a21f-49fc-ace2-408479f77876">
+  <producedTypes>
+    <refType typeId="e560d39b-de2a-4d4c-b230-2de7a7e26343" valueTypeId="4ec8d799-a991-49da-a03b-2148e4f878f2"/>
+    <listType typeId="0b42e0c7-0ed4-40e3-a909-fc716192867e" valueTypeId="ed5bacd6-b064-42a9-a758-7bb4ae3acfed"/>
+    <managerType typeId="d2ec6606-7191-48c8-a6b2-c0cd948a1f7e" valueTypeId="c9977c0b-d25a-4e93-950d-2c3c24bf8d3d"/>
+  </producedTypes>
+  <name>СтатусыКартЛояльности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

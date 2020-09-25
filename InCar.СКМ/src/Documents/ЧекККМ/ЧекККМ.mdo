@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="28e10e4d-d017-43fb-88df-59ae1286b57e">
+  <producedTypes>
+    <objectType typeId="5a0b7d1f-fe96-4e3d-9233-b37145c4831b" valueTypeId="bfd9edf5-48e4-4eed-910f-f6efc310f33f"/>
+    <refType typeId="2ddb9bfc-c6b7-4954-bd22-390312de73ea" valueTypeId="5d40fbde-40ac-4165-9336-24d76b61b1de"/>
+    <selectionType typeId="01078442-cfc5-4606-babd-23045629ace6" valueTypeId="03119a3c-6d81-4901-b89f-e9c42eea5062"/>
+    <listType typeId="51be16b8-58d5-479d-a07d-c4af212ed821" valueTypeId="affe3043-e17d-4fb2-baf2-dd9779f1612c"/>
+    <managerType typeId="854b0c72-444c-48d3-a3b2-b7cf69b7d1bc" valueTypeId="918cb6ed-c670-4c21-a260-0767731b5b2f"/>
+  </producedTypes>
+  <name>ЧекККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+</mdclass:Document>
