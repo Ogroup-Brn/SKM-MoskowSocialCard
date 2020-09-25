@@ -8,4 +8,11 @@
   <name>ТипыКарт</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="10ccf2bc-e4de-4910-a10f-ec3021fcfb79" extendedConfigurationObject="1bbdef40-b981-46ac-a781-993ae7d526bd">
+    <name>Штриховая</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
 </mdclass:Enum>
